@@ -19,8 +19,36 @@
 </head>
 <body>
 
+<style>
+    h1{
 
-<h1>게시물 수정</h1>
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .container{
+
+        width : 500px;
+    }
+    label{
+
+        font-weight: bold;
+    }
+    .form-check-label{
+
+        font-weight: inherit;
+    }
+    select{
+
+        appearance:none;
+    }
+    .container{
+
+        width : 500px;
+    }
+</style>
+
+<div class = "container">
+    <h1>게시물 수정</h1>
 <form:form commandName="memberVO" class="was-validated" method="post" action="../editok2">
    <form:hidden path="seq"/>
    <table id="edit">
@@ -75,6 +103,6 @@
    <input type="submit" value="수정하기"/>
    <input type="button" value="취소하기" onclick="history.back()"/>
 </form:form>
-
+</div>
 </body>
 </html>

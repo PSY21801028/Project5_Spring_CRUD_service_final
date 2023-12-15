@@ -21,9 +21,10 @@ html {
  font-family: 'LotteMartDream', sans-serif;
 }
 table {
-    width: 100%;
+    width: 500px;
     border-top: 1px solid #444444;
     border-collapse: collapse;
+   border-radius: 10px;
   }
   th, td {
     border-bottom: 1px solid #444444;
@@ -44,9 +45,31 @@ table {
    }
 </script>
 </head>
+<style>
+
+   img{
+
+      width: 200px;
+      height: 180px;
+   }
+   div{
+
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+   }
+
+   table{
+
+      width: 100%;
+   }
+</style>
 <body>
+<div>
    <h1>팀 구성원</h1>
-   <table id="list2" width="90%">
+   <img src = "../img/team2.png">
+</div>
+   <table id="list2" width="100%">
       <tr>
          <th>Id</th>
          <th>학번</th>

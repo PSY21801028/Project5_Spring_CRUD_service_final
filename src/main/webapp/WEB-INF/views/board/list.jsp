@@ -45,7 +45,29 @@ table {
 </script>
 </head>
 <body>
-<h1>공지사항</h1>
+<style>
+
+   img{
+
+      width:300px;
+      height: 160px;
+
+   }
+   p{
+
+      font-size: 30px;
+   }
+   div{
+
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+</style>
+<div>
+   <p>공지사항</p>
+   <img src = "../img/team1.png">
+</div>
 <table id="list" width="90%">
 <tr>
    <th>Id</th>
